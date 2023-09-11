@@ -1,6 +1,8 @@
 *{
     padding: 0;
     margin: 0;
+    line-height: 1.4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body{
@@ -24,10 +26,54 @@ body{
 }
 
 .wrap{  
-    height: 340px;
+    height: 320px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
 }
+
+.wrap div{
+    padding: 2px 0;
+}
+
+.showcase{
+    width: 80%;
+}
+
+.showcase h2{
+    padding-bottom: 10px;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    background-color: #767272;
+    gap: 16px;
+    margin: 10px;
+}
+
+.wrapper div{
+    padding: 6px 0;
+}
+
+.icon{
+    margin-left: 10px;
+}
+
+.link{
+    margin-right: 10px;
+}
+
+.btn{
+    margin: 10px 0;
+    padding: 8px 40px;
+    border: none;
+    background-color: hsl(245, 75%, 52%);
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
