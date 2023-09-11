@@ -11,7 +11,23 @@ body{
     height: 100vh;
 }
 
-.container{
-    width: 30%;
+.main-image{
+    width: 400px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
 }
 
+.container{
+    width: 400px;
+    background-color: aqua;
+    border-radius: 16px;
+}
+
+.wrap{  
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
